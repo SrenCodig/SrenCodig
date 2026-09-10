@@ -98,11 +98,6 @@ Proyecto grupal enfocado en documentacion tecnica.
 ## Estadisticas de GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SrenCodig&show_icons=true&hide_border=true&theme=dark&title_color=58a6ff&text_color=e6edf3&icon_color=3fb950&bg_color=0d1117" alt="Estadisticas de GitHub de SrenCodig" height="180">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SrenCodig&layout=compact&hide_border=true&theme=dark&title_color=58a6ff&text_color=e6edf3&bg_color=0d1117" alt="Lenguajes mas usados por SrenCodig" height="180">
-</p>
-
-<p align="center">
   <img src="https://streak-stats.demolab.com?user=SrenCodig&theme=dark&hide_border=true&background=0F172A&ring=38BDF8&fire=F59E0B&currStreakLabel=38BDF8" alt="Racha de contribuciones de SrenCodig" width="500">
 </p>
 
