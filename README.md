@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/SrenCodig"><img src="https://img.icons8.com/fluency/48/github.png" alt="GitHub" title="Visitar mi GitHub"></a>
   &nbsp;&nbsp;
-  <a href="./assets/Sergio-Tovar-Perdigon-CV.pdf"><img src="https://img.icons8.com/fluency/48/resume.png" alt="CV" title="Abrir mi CV"></a>
+  <a href="./assets/Sergio%20Tovar%20Perdig%C3%B3n%20CV.pdf"><img src="https://img.icons8.com/fluency/48/resume.png" alt="CV" title="Abrir mi CV"></a>
   &nbsp;&nbsp;
   <a href="mailto:sergiotoper64@gmail.com"><img src="https://img.icons8.com/fluency/48/gmail.png" alt="Gmail" title="Escribirme por Gmail"></a>
   &nbsp;&nbsp;
@@ -19,12 +19,15 @@
 
 ## Sobre mi
 
-Estudiante de sexto semestre de Ingenieria de Sistemas y Tecnologo en Analisis y Desarrollo de Sistemas de la Informacion. Me interesa construir soluciones web funcionales, mantenibles y orientadas a las necesidades reales de las personas.
+Estudiante de sexto semestre de Ingenieria de Sistemas, Tecnología en Analisis y Desarrollo de Sistemas de la Informacion. Me interesa construir soluciones web funcionales, mantenibles y orientadas a las necesidades reales de las personas.
 
 Mi experiencia combina desarrollo web, bases de datos, levantamiento de requerimientos, modelado UML, diseno de interfaces, logica de negocio, validacion y documentacion tecnica.
 
 - Me interesa seguir creciendo en desarrollo de software, arquitectura de sistemas, bases de datos e Inteligencia Artificial.
 - Ubicacion: Villavicencio, Meta, Colombia.
+
+> [!NOTE]
+> Este perfil reúne mi formación, proyectos académicos y experiencia práctica en desarrollo web y bases de datos.
 
 ## Experiencia
 
@@ -55,11 +58,11 @@ Trabajo con una arquitectura web por capas, separando la experiencia de usuario,
 
 ```mermaid
 flowchart LR
-    U[Usuario] --> UI[Interfaz web\nHTML5 + CSS3 + JavaScript]
-    UI --> APP[Logica de negocio\nPHP]
-    APP --> DATA[(Persistencia\nSQL / PostgreSQL / MongoDB)]
+    U[Usuario] --> UI[Interfaz web<br/>HTML5 + CSS3 + JavaScript]
+    UI --> APP[Logica de negocio<br/>PHP]
+    APP --> DATA[(Persistencia<br/>SQL / PostgreSQL / MongoDB)]
     REQ[Requerimientos y UML] --> APP
-    APP --> DOC[Validacion y\ndocumentacion tecnica]
+    APP --> DOC[Validacion y<br/>documentacion tecnica]
 ```
 
 ## Proyectos academicos
@@ -80,6 +83,9 @@ Proyecto grupal enfocado en documentacion tecnica.
 - Definicion de la estructura de contenidos y pautas de publicacion.
 - Control de versiones y preparacion de entregables.
 
+> [!IMPORTANT]
+> En mis proyectos priorizo separar la interfaz, la lógica de negocio y la persistencia para facilitar las validaciones y el mantenimiento.
+
 ## Formacion
 
 - **Tecnologia en Analisis y Desarrollo de Sistemas de la Informacion**, Universidad UCompensar, 2026. Actualmente cursando como parte de la carrera de Ingenieria de Sistemas.
@@ -96,19 +102,30 @@ Proyecto grupal enfocado en documentacion tecnica.
 ## Estadisticas de GitHub
 
 <p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=SrenCodig&show_icons=true&hide_border=true&theme=dark&title_color=58a6ff&text_color=e6edf3&icon_color=3fb950&bg_color=0d1117" alt="Estadisticas de GitHub de SrenCodig" height="180">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SrenCodig&layout=compact&hide_border=true&theme=dark&title_color=58a6ff&text_color=e6edf3&bg_color=0d1117" alt="Lenguajes mas usados por SrenCodig" height="180">
+</p>
+
+<p align="center">
   <img src="https://streak-stats.demolab.com?user=SrenCodig&theme=dark&hide_border=true&background=0F172A&ring=38BDF8&fire=F59E0B&currStreakLabel=38BDF8" alt="Racha de contribuciones de SrenCodig" width="500">
 </p>
+
+> [!TIP]
+> Puedes abrir cada badge tecnológico para consultar la documentación oficial de la herramienta.
 
 ## Contacto
 
 <p align="center">
   <a href="https://github.com/SrenCodig"><img src="https://img.icons8.com/fluency/48/github.png" alt="GitHub" title="Visitar mi GitHub"></a>
   &nbsp;&nbsp;
-  <a href="./assets/Sergio-Tovar-Perdigon-CV.pdf"><img src="https://img.icons8.com/fluency/48/resume.png" alt="CV" title="Abrir mi CV"></a>
+  <a href="./assets/Sergio%20Tovar%20Perdig%C3%B3n%20CV.pdf"><img src="https://img.icons8.com/fluency/48/resume.png" alt="CV" title="Abrir mi CV"></a>
   &nbsp;&nbsp;
   <a href="mailto:sergiotoper64@gmail.com"><img src="https://img.icons8.com/fluency/48/gmail.png" alt="Gmail" title="Escribirme por Gmail"></a>
   &nbsp;&nbsp;
 </p>
+
+> [!WARNING]
+> Las estadísticas, el contador de visitas y algunos iconos dependen de servicios externos y pueden tardar en cargar.
 
 <p align="center">
   <strong>Gracias por visitar mi perfil.</strong>

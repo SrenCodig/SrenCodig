@@ -1,34 +1,46 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Sergio Tovar Perdigon - Ingenieria de Sistemas</title>
-  <desc id="desc">Encabezado oscuro tecnologico para el perfil de GitHub de Sergio Tovar Perdigon.</desc>
+<svg width="680" height="320" viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Sergio Tovar Perdigón - Arch terminal profile</title>
+  <desc id="desc">Terminal personalizada y animada con la identidad profesional de Sergio Tovar Perdigón.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#08111F"/>
-      <stop offset="0.55" stop-color="#0F2740"/>
-      <stop offset="1" stop-color="#092E3A"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="110" y1="40" x2="1070" y2="280" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#38BDF8"/>
-      <stop offset="1" stop-color="#2DD4BF"/>
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="#7DD3FC" stroke-opacity="0.08"/>
-    </pattern>
+    <linearGradient id="aurora" x1="0" y1="0" x2="680" y2="320" gradientUnits="userSpaceOnUse"><stop stop-color="#0d1117"/><stop offset="0.55" stop-color="#111827"/><stop offset="1" stop-color="#172033"/></linearGradient>
+    <linearGradient id="footerLine" x1="30" y1="0" x2="650" y2="0"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#f472b6"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="scan" width="1" height="8" patternUnits="userSpaceOnUse"><rect width="1" height="1" fill="#fff" opacity="0.035"/></pattern>
+    <style>
+      text { font-family: 'Courier New', Courier, monospace; }
+      .reveal { opacity: 0; animation: reveal 0.45s ease-out forwards; }
+      .r1 { animation-delay: .25s; }.r2 { animation-delay: .55s; }.r3 { animation-delay: .85s; }.r4 { animation-delay: 1.15s; }.r5 { animation-delay: 1.45s; }.r6 { animation-delay: 1.9s; }.r7 { animation-delay: 2.25s; }.r8 { animation-delay: 2.6s; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .blink { animation: blink 1.05s step-end infinite; }
+      .scanline { animation: scanline 5s linear infinite; }
+      .orbit { animation: orbit 7s linear infinite; transform-box: fill-box; transform-origin: center; }
+      .bar1 { animation: load1 3s ease-in-out infinite alternate; }.bar2 { animation: load2 3.8s ease-in-out infinite alternate; }.bar3 { animation: load3 2.7s ease-in-out infinite alternate; }
+      .float { animation: float 4s ease-in-out infinite; }
+      @keyframes reveal { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes pulse { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
+      @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0; } }
+      @keyframes scanline { from { transform: translateY(-35px); } to { transform: translateY(330px); } }
+      @keyframes orbit { to { transform: rotate(360deg); } }
+      @keyframes load1 { from { width: 42px; } to { width: 94px; } }.bar2 { animation-name: load2; } @keyframes load2 { from { width: 28px; } to { width: 76px; } }.bar3 { animation-name: load3; } @keyframes load3 { from { width: 56px; } to { width: 106px; } }
+      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+    </style>
   </defs>
-  <rect width="1200" height="320" rx="18" fill="url(#background)"/>
-  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
-  <circle cx="1060" cy="66" r="180" fill="#22D3EE" fill-opacity="0.08"/>
-  <circle cx="1060" cy="66" r="124" stroke="#38BDF8" stroke-opacity="0.24" stroke-width="2"/>
-  <path d="M0 275C190 220 265 310 465 259C650 212 770 250 1200 155" stroke="url(#accent)" stroke-opacity="0.36" stroke-width="3"/>
-  <path d="M0 290C190 235 265 325 465 274C650 227 770 265 1200 170" stroke="#2DD4BF" stroke-opacity="0.12" stroke-width="2"/>
-  <rect x="72" y="68" width="7" height="172" rx="3.5" fill="url(#accent)"/>
-  <text x="112" y="119" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">Sergio Tovar Perdigon</text>
-  <text x="116" y="164" fill="#7DD3FC" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Estudiante de Ingenieria de Sistemas</text>
-  <text x="116" y="207" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="19">Desarrollo web  |  Bases de datos  |  Analisis de sistemas</text>
-  <text x="116" y="244" fill="#5EEAD4" font-family="Courier New, monospace" font-size="17">&lt; construir soluciones funcionales /&gt;</text>
-  <g transform="translate(940 156)" stroke="#7DD3FC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
-    <rect x="0" y="0" width="128" height="82" rx="10" fill="#0B1B2D" stroke-opacity="0.7"/>
-    <path d="M16 22h96M16 42h68M16 62h42" stroke="#2DD4BF"/>
-    <circle cx="101" cy="42" r="5" fill="#38BDF8" stroke="none"/>
-  </g>
+  <rect width="680" height="320" rx="14" fill="url(#aurora)"/>
+  <rect x="1" y="1" width="678" height="318" rx="13" fill="none" stroke="url(#footerLine)" stroke-opacity=".65"/>
+  <rect width="680" height="320" rx="14" fill="url(#scan)"/>
+  <rect class="scanline" x="1" y="0" width="678" height="35" fill="#38bdf8" opacity=".035"/>
+  <rect width="680" height="36" rx="14" fill="#161b22"/><rect y="24" width="680" height="12" fill="#161b22"/>
+  <text x="340" y="23" text-anchor="middle" fill="#94a3b8" font-size="11">SrenCoding ~ / profile</text>
+  <g class="reveal r1"><text x="24" y="65" font-size="13" fill="#f59e0b">[SrenCoding ~]$</text><text x="163" y="65" font-size="13" fill="#f8fafc">fastfetch --profile</text></g>
+  <g class="reveal r2"><text x="24" y="88" font-size="13" fill="#fb7185">name</text><text x="105" y="88" font-size="13" fill="#64748b">::</text><text x="130" y="88" font-size="13" fill="#f8fafc">Sergio Tovar Perdigón</text><text x="445" y="88" font-size="13" fill="#a78bfa">uptime</text><text x="512" y="88" font-size="13" fill="#f8fafc">6 semesters</text></g>
+  <g class="reveal r3"><text x="24" y="108" font-size="13" fill="#fb7185">role</text><text x="105" y="108" font-size="13" fill="#64748b">::</text><text x="130" y="108" font-size="13" fill="#f8fafc">Systems Engineering student</text><text x="445" y="108" font-size="13" fill="#a78bfa">lang</text><text x="512" y="108" font-size="13" fill="#f8fafc">es_CO</text></g>
+  <g class="reveal r4"><text x="24" y="128" font-size="13" fill="#fb7185">focus</text><text x="105" y="128" font-size="13" fill="#64748b">::</text><text x="130" y="128" font-size="13" fill="#f8fafc">Web · Data · Systems</text><text x="445" y="128" font-size="13" fill="#a78bfa">mode</text><text x="512" y="128" font-size="13" fill="#34d399">building</text></g>
+  <g class="reveal r5"><text x="24" y="148" font-size="13" fill="#fb7185">location</text><text x="105" y="148" font-size="13" fill="#64748b">::</text><text x="130" y="148" font-size="13" fill="#f8fafc">Villavicencio, Colombia</text><text x="445" y="148" font-size="13" fill="#a78bfa">repo</text><text x="512" y="148" font-size="13" fill="#f8fafc">SrenCodig</text></g>
+  <path d="M24 165H656" stroke="#334155" stroke-dasharray="3 6"/>
+  <g class="reveal r6"><text x="24" y="190" font-size="13" fill="#f59e0b">[SrenCoding ~]$</text><text x="163" y="190" font-size="13" fill="#f8fafc">cat stack.json</text></g>
+  <g class="reveal r7"><text x="24" y="213" font-size="13" fill="#22d3ee">frontend</text><text x="130" y="213" font-size="13" fill="#f8fafc">HTML5  CSS3  JavaScript</text><text x="445" y="213" font-size="13" fill="#64748b">[</text><rect x="456" y="203" class="bar1" height="9" rx="4" fill="#22d3ee"/><text x="558" y="213" font-size="13" fill="#64748b">]</text></g>
+  <g class="reveal r8"><text x="24" y="233" font-size="13" fill="#22d3ee">backend </text><text x="130" y="233" font-size="13" fill="#f8fafc">PHP  Python  SQL</text><text x="445" y="233" font-size="13" fill="#64748b">[</text><rect x="456" y="223" class="bar2" height="9" rx="4" fill="#fb7185"/><text x="540" y="233" font-size="13" fill="#64748b">]</text></g>
+  <g class="float"><circle cx="618" cy="252" r="18" fill="#a78bfa" opacity=".1"/><path d="M606 252l8 8 16-18" stroke="#a78bfa" stroke-width="2" fill="none"/><circle cx="618" cy="252" r="23" stroke="#a78bfa" stroke-opacity=".4" stroke-dasharray="2 5" fill="none" class="orbit"/></g>
+  <g class="reveal r8"><text x="24" y="270" font-size="13" fill="#22d3ee">database</text><text x="130" y="270" font-size="13" fill="#f8fafc">PostgreSQL  MongoDB</text><text x="445" y="270" font-size="13" fill="#64748b">[</text><rect x="456" y="260" class="bar3" height="9" rx="4" fill="#f59e0b"/><text x="570" y="270" font-size="13" fill="#64748b">]</text></g>
+  <g class="reveal r8"><text x="24" y="300" font-size="13" fill="#f59e0b">[SrenCoding ~]$</text><rect x="163" y="287" width="8" height="14" fill="#34d399" class="blink"/><text x="190" y="300" font-size="11" fill="#64748b" class="pulse">ready to connect</text></g>
 </svg>
