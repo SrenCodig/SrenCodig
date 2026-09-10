@@ -26,8 +26,6 @@ Mi experiencia combina desarrollo web, bases de datos, levantamiento de requerim
 - Me interesa seguir creciendo en desarrollo de software, arquitectura de sistemas, bases de datos e Inteligencia Artificial.
 - Ubicacion: Villavicencio, Meta, Colombia.
 
-> [!NOTE]
-> Este perfil reúne mi formación, proyectos académicos y experiencia práctica en desarrollo web y bases de datos.
 
 ## Experiencia
 
@@ -83,8 +81,6 @@ Proyecto grupal enfocado en documentacion tecnica.
 - Definicion de la estructura de contenidos y pautas de publicacion.
 - Control de versiones y preparacion de entregables.
 
-> [!IMPORTANT]
-> En mis proyectos priorizo separar la interfaz, la lógica de negocio y la persistencia para facilitar las validaciones y el mantenimiento.
 
 ## Formacion
 
@@ -110,8 +106,6 @@ Proyecto grupal enfocado en documentacion tecnica.
   <img src="https://streak-stats.demolab.com?user=SrenCodig&theme=dark&hide_border=true&background=0F172A&ring=38BDF8&fire=F59E0B&currStreakLabel=38BDF8" alt="Racha de contribuciones de SrenCodig" width="500">
 </p>
 
-> [!TIP]
-> Puedes abrir cada badge tecnológico para consultar la documentación oficial de la herramienta.
 
 ## Contacto
 
@@ -123,6 +117,15 @@ Proyecto grupal enfocado en documentacion tecnica.
   <a href="mailto:sergiotoper64@gmail.com"><img src="https://img.icons8.com/fluency/48/gmail.png" alt="Gmail" title="Escribirme por Gmail"></a>
   &nbsp;&nbsp;
 </p>
+
+> [!NOTE]
+> Este perfil reúne mi formación, proyectos académicos y experiencia práctica en desarrollo web y bases de datos.
+
+> [!IMPORTANT]
+> En mis proyectos priorizo separar la interfaz, la lógica de negocio y la persistencia para facilitar las validaciones y el mantenimiento.
+
+> [!TIP]
+> Puedes abrir cada badge tecnológico para consultar la documentación oficial de la herramienta.
 
 > [!WARNING]
 > Las estadísticas, el contador de visitas y algunos iconos dependen de servicios externos y pueden tardar en cargar.
