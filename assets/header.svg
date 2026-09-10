@@ -1,0 +1,34 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Sergio Tovar Perdigon - Ingenieria de Sistemas</title>
+  <desc id="desc">Encabezado oscuro tecnologico para el perfil de GitHub de Sergio Tovar Perdigon.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111F"/>
+      <stop offset="0.55" stop-color="#0F2740"/>
+      <stop offset="1" stop-color="#092E3A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="110" y1="40" x2="1070" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#7DD3FC" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="320" rx="18" fill="url(#background)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+  <circle cx="1060" cy="66" r="180" fill="#22D3EE" fill-opacity="0.08"/>
+  <circle cx="1060" cy="66" r="124" stroke="#38BDF8" stroke-opacity="0.24" stroke-width="2"/>
+  <path d="M0 275C190 220 265 310 465 259C650 212 770 250 1200 155" stroke="url(#accent)" stroke-opacity="0.36" stroke-width="3"/>
+  <path d="M0 290C190 235 265 325 465 274C650 227 770 265 1200 170" stroke="#2DD4BF" stroke-opacity="0.12" stroke-width="2"/>
+  <rect x="72" y="68" width="7" height="172" rx="3.5" fill="url(#accent)"/>
+  <text x="112" y="119" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">Sergio Tovar Perdigon</text>
+  <text x="116" y="164" fill="#7DD3FC" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Estudiante de Ingenieria de Sistemas</text>
+  <text x="116" y="207" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="19">Desarrollo web  |  Bases de datos  |  Analisis de sistemas</text>
+  <text x="116" y="244" fill="#5EEAD4" font-family="Courier New, monospace" font-size="17">&lt; construir soluciones funcionales /&gt;</text>
+  <g transform="translate(940 156)" stroke="#7DD3FC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+    <rect x="0" y="0" width="128" height="82" rx="10" fill="#0B1B2D" stroke-opacity="0.7"/>
+    <path d="M16 22h96M16 42h68M16 62h42" stroke="#2DD4BF"/>
+    <circle cx="101" cy="42" r="5" fill="#38BDF8" stroke="none"/>
+  </g>
+</svg>
